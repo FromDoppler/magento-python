@@ -41,7 +41,7 @@ class Client(object):
         Returns:
 
         """
-        return self._get('stockstatuses/' + product_sku, params=params)
+        return self._get('stockStatuses/' + product_sku, params=params)
 
     def create_product(self, data=None):
         """Create product
